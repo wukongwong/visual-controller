@@ -3,8 +3,8 @@ To ahieve a dynamic visual servo controller for a wide range of objects.
 
 # Requirements:(We test our project in Ubuntu 20.04)
 1. We use conda to manage the python env, install the environment.yaml;
-2. Install pybullet_object according to https://github.com/eleramp/pybullet-object-models；
-3. For the real experiments, you need to install frankapy and franka-interface accrding to https://iamlab-cmu.github.io/frankapy/index.html and https://github.com/iamlab-cmu/franka-interface；
+2. Install pybullet_object according to https://github.com/eleramp/pybullet-object-models;
+3. For the real experiments, you need to install frankapy and franka-interface accrding to https://iamlab-cmu.github.io/frankapy/index.html and https://github.com/iamlab-cmu/franka-interface.
 
 # File struture introduction:
 1. models and src file contains robot simulation model;
@@ -21,7 +21,7 @@ To ahieve a dynamic visual servo controller for a wide range of objects.
 
 4. runNN file contains code file when doing the NN inference;
 5. yolov5 contains the code that detects the bouding box of target objects;
-6. kinematics file contains the frankpy kinematics, such as IK;
+6. kinematics file contains the frankpy kinematics, such as IK.
 
 # dataset and trained model:
 They can be found at https://drive.google.com/drive/folders/1lPT0FiArjju4aQTpktE_4pZ7mRmUr6sX?usp=sharing
