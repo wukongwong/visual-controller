@@ -22,6 +22,8 @@ To ahieve a dynamic visual servo controller for a wide range of objects.
 5. yolov5 contains the code that detects the bouding box of target objects;
 6. kinematics file contains the frankpy kinematics, such as IK;
 
+# dataset and trained model
+They can be found at https://drive.google.com/drive/folders/1lPT0FiArjju4aQTpktE_4pZ7mRmUr6sX?usp=sharing
 # How to use:
 
 1. For simualtion: just run dynamic-visual_servo.py;
@@ -33,5 +35,6 @@ On annother PC with 1080Ti GPU, we run run_model.py and toRobot_joint.py that ru
 1. To increase the inference speed in the real world, for the goal image branch, we load the goal iamge NN branch output since the goal image is fixed;
 2. In the real world, we decrease the velocity to half in Z direction considering the real-time issue. 
 
-# All rights are reserved to the author. Commercial use is prohibited. Dop an email to wukongwoong@gmail.com for permission if you want to use it for academic purpose.
+# All rights are reserved to the author. 
+Commercial use is prohibited. Dop an email to wukongwoong@gmail.com for permission if you want to use it for academic purpose.
 
