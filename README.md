@@ -1,5 +1,5 @@
 # Visual to control
-To ahieve a dynamic visual servo controller for a wide range of objects.
+To ahieve a dynamic visual servo controller for a wide range of objects. This is the code implementation of the paper https://drive.google.com/file/d/1aolkaKbTb5v53AI-93A_E8BlWVKve1Hy/view?usp=sharing. (Under review)
 
 # Requirements:(We test our project in Ubuntu 20.04)
 1. We use conda to manage the python env, install the environment.yaml;
